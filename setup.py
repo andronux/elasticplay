@@ -2,14 +2,15 @@ from setuptools import setup
 
 
 setup(
-	name='mp3',
+	name='elasticplay',
 	version='1.0',
 	py_modules=['mp3'],
 	install_requires=[
 		'Click',
+		'colorama',
 	],
 	entry_points='''
 		[console_scripts]
-		mp3=mp3:cli
+		elasticplay=mp3:cli
 	''',
 )
